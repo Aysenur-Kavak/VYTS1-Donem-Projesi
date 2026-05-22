@@ -33,7 +33,7 @@ Sistem, referans bütünlüğü (Referential Integrity) ve veri tutarlılığı 
 
 ---
 
-## 🔥 İş Mantığı ve Gelişmiş T-SQL Bileşenleri
+##  İş Mantığı ve Gelişmiş T-SQL Bileşenleri
 
 ### 1. Otomatik Ciro Yönetimi (`trg_SiparisCiroGuncelle`)
 Bir siparişin durumu `TeslimEdildi` olarak güncellendiğinde, ilgili restoranın `ToplamCiro` alanı anlık olarak sipariş tutarı kadar artırılır. Eğer sipariş teslim edildi durumundan başka bir duruma çekilirse (veya iptal edilirse) ciro otomatik olarak düşürülür.
